@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+<style>
+      body { color:black; }
+      h1 { color:#FFD700; }
+
+    </style>
+</head>
+
+<body style ="font-family:Comic Sans MS;">
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header_container _container">
+                    <div class="row px-4">
+                        <div class="col-2 col-sm-3 col-md-1 col-lg-1">
+                            <img src="logo.png" alt="logo">
+                        </div>
+                        <h1 class="col-10 col-sm-9 col-md-11 col-lg-11">
+                            НУМЕРОВАННЫЙ СПИСОК ССЫЛОК
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav class="menu">
+            <div class="container">
+                <div class="nav_container _container">
+                    <ul class="nav-list">
+                        <div class="row">
+                            <li class="nav-item col-sm-12 col-md-4">
+                                <a href="#zad1" class="nav-link">ЗАДАНИЕ 1</a>
+                            </li>
+                            <li class="nav-item col-sm-12 col-md-4">
+                                <a href="#form" class="nav-link">ФОРМА</a>
+                            </li>
+                            <li class="nav-item col-sm-12 col-md-4">
+                                <a href="#table" class="nav-link">ТАБЛИЦА</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="dz_links">
+            <div class="dz_links_container _container">
+                <ol class="dz_list">
+                    <li class="dz_list_item"><a href="https://web.telegram.org/z/" class="dz_link">Телеграм</a></li>
+                    <li class="dz_list_item"><a href="https://ru.wikipedia.org/wiki/Заглавная_страница" class="dz_link">Википедия</a></li>
+                    <li><a href="ftp://golosovanie.ru/hranilishe/spisok.txt" class="dz_link">Без
+                            авторизации</a></li>
+                    <li><a href="ftp://user:password@sgolosovanie.ru/hranilishe/spisok.txt" class="dz_link">С
+                            авторизацией</a></li>
+                    <li><a href="https://shoolsite.com#bottom" class="dz_link">Ссылка на часть
+                            страницы(якорь)</a></li>
+                    <li><a href="#top" class="dz_link">Ссылка на начало страницы</a></li>
+                    <li><a href="https://vk.com/im?peers=271622876&sel=339515568" class="dz_link">Ссылка с
+                            двумя параметрами</a></li>
+                    <li><a href="#top" class="dz_link">Начало страницы</a> <a href="#bottom" class="dz_link">Конец
+                            страницы</a> <a href="#" class="dz_link">Главная</a></li>
+                    <li><a class="dz_link">Ссылка без href</a></li>
+                    <li><a href="" class="dz_link">Ссылка с пустым href</a></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/Заглавная_страница" rel="nofollow" class="dz_link">Ссылка ,
+                            по
+                            которой запрещен переход поисковикам</a></li>
+                    <li>
+                        <!--noindex--><a href="https://ru.wikipedia.org/wiki/Заглавная_страница" rel="noindex" class="dz_link">Ссылка
+                            ,запрещенная
+                            для индексации поисковиками</a>
+                        <!--/noindex-->
+                    </li>
+                    <li>
+                        <h3>Пример абзаца для контекстной ссылки:</h3>
+                        <br>
+                        <p>
+                            <a href="https://ru.wikipedia.org/wiki/Александр_Македонский"
+                                class="dz_link">Александр Македонский</a>  (Александр III Великий, др.-греч. Ἀλέξανδρος Γ' ὁ Μέγας; предположительно 20/23 июля или 6/10 октября 356 года до н. э., Пелла — 10/13 июня 323 года до н. э., Вавилон) — царь Древней Македонии из династии Аргеадов (с 336 года до н. э.), выдающийся полководец, создатель мировой державы, распавшейся после его смерти.
+                       </li>
+					<li class="dz_list_item"><a href="https://warspot.ru/4466-persidskiy-pohod-aleksandra-finansovyy-otchet"><img src="img.png" width="100" height="100" alt="Induk"></a></li><li>
+					<li class="dz_list_item">
+						<img src="image.jpg" width="800" height="500" usemap="#navigation" alt="map">
+	        <map name="navigation">
+	          <area shape="circle"
+	          coords="570,190,100"
+	          href="https://dzen.ru/media/id/616d9bd8f1ebda3a7a61a5f6/aleksandr-makedonskii-put-velichaishego-polkovodca-drevnego-mira-ot-makedonii-do-kraia-sveta-616d9bfda29cfc3ab3760829?&"
+	          alt="circle">
+	        </map>
+                    <li class="dz_list_item"><a href="demo.html">Относительная ссылка на файл в том же каталоге</a></li>
+					<li class="dz_list_item"><a href="about/content.html">Относительная ссылка на файл в каталоге about</a></li>
+					<li class="dz_list_item"><a href="../krabick.html">Относительная ссылка на файл в каталоге, выше нынешнего на один</a></li>
+					<li class="dz_list_item"><a href="../../lobster.html">Относительная ссылка на файл двумя каталогами выше</a></li>
+					<li class="dz_list_item"><a href="/" class="dz_link">Сокращенная ссылка на главную</a></li>
+					<li class="dz_list_item"><a href="form.html" class="dz_link">Сокращенная на внутреннюю</a></li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="table" id="table">
+            <div class="table_container _container">
+                <h1 class="table_title">Таблица</h1>
+                <table border="1">
+                    <tr>
+                        <th class="col-name">Колонка 1</th>
+                        <th class="col-name">Колонка 2</th>
+                        <th class="col-name">Колонка 3</th>
+                    </tr>
+                    <tr class="nechet">
+                        <td>Ячейка 11</td>
+                        <td>Ячейка 12</td>
+                        <td>Ячейка 13</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Ячейка 21 объединенная с 22</td>
+                        <td rowspan="2">Ячейка 23 и 33</td>
+                    </tr>
+                    <tr class="nechet">
+                        <td>Ячейка 31</td>
+                        <td>Ячейка 32</td>
+                    </tr>
+                    <tr>
+                        <td>Ячейка 41</td>
+                        <td>Ячейка 42</td>
+                        <td>Ячейка 43</td>
+                    </tr>
+                    <tr class="nechet">
+                        <td colspan="3">Ячейка 51 объединенная с 52 и 53</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+        <div class="form">
+            <div class="container">
+                <div class="form_container _container">
+                    <div class="row px-4">
+                        <form id="form" action="/" method="POST">
+                            <div class="form-group">
+                                <label>
+                                    Введите имя:
+                                </label><br>
+                                <input class="form-control" name="field-name-1" placeholder="Имя">
+                            </div>
+                            <div class="form-group">
+                                <label>
+                                    Введите email:
+                                </label><br>
+                                <input class="form-control" name="field-email" placeholder="test@example.com"
+                                    type="email">
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">
+                                    Введите дату рождения:
+                                </label><br>
+                                <input class="form-control" name="field-date" value="2021-09-08" type="date">
+                            </div>
+                            <div class="form-group">
+                                Введите пол:<br>
+                                <label><input type="radio" checked="checked" name="radio-group-2" value="Значение1">
+                                    Мужской</label><br>
+                                <label>
+                                    <input type="radio" name="radio-group-2" value="Значение2">
+                                    Женский
+                                </label><br>
+                            </div>
+                            <div class="form-group">
+                                Выберите кол-во конечностей:<br>
+                                <label><input type="radio" checked="checked" name="radio-group-1" value="Значение1">
+                                    1</label>
+                                <label><input type="radio" checked="checked" name="radio-group-1" value="Значение2">
+                                    2</label>
+                                <label><input type="radio" checked="checked" name="radio-group-1" value="Значение3">
+                                    3</label>
+                                <label><input type="radio" name="radio-group-1" value="Значение4">
+                                    4</label>
+                                <label><input type="radio" name="radio-group-1" value="Значениие 5">
+                                    Больше 4х</label><br>
+                            </div>
+                            <div class="form-group">
+                                <label>
+                                    Сверхспособности:
+                                    <br>
+                                    <select class="form-control" name="field-name-4[]" multiple="multiple">
+                                        <option value="Значение1">Бессмертие</option>
+                                        <option value="Значение2" selected="selected">Левитация</option>
+                                        <option value="Значение3" selected="selected">Прохождение сквозь стены</option>
+                                    </select>
+                                </label><br>
+                            </div>
+                            <div class="form-group">
+                                <label>
+                                    Биография:
+                                    <br>
+                                    <textarea class="form-control" name="field-name-2"
+                                        style="margin: 0px; height: 35px; width: 187px;"
+                                        placeholder="Напишите что-то о себе"></textarea>
+                                </label><br>
+                            </div>
+                            <div class="form-group">
+                                <label><input type="checkbox" checked="checked" name="check-1">
+                                    с контрактом ознакомлен(а)</label><br>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="submit" value="Отправить">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer_container _container">
+                Светиков Глеб ПИ27/2
+            </div>
+        </footer>
+</body>
+
+</html>
